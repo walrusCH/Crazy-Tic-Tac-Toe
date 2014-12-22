@@ -14,15 +14,16 @@
 			</div>
 		</div>
 		<div class="row">
-			<form role="form">
+
+			{{ Form::open(array('url' => 'foo')) }}
 		  		<div class="form-group">
-			    	<label for="exampleInputEmail1">User Name 1</label>
-				    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter User name 1">
-					<label for="exampleInputEmail2">User Name 2</label>
-				    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter User name 2">
+			    	<label for="userName1">User Name 1</label>
+				    <input type="text" class="form-control" id="userName1" name="userName1" placeholder="Enter User name 1">
+					<label for="userName2">User Name 2</label>
+				    <input type="text" class="form-control" id="userName2" name="userName2" placeholder="Enter User name 2">
 			  	</div>
 		  		<button type="submit" class="btn btn-default">Submit</button>
-			</form>
+			{{ Form::close() }}
 		</div>
 	</div>
 	

@@ -13,13 +13,11 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('login');
 });
 
-Route::get('/foo', function()
-{
-	return View::make('board');
-});
+Route::post('/foo' ,'UserController@login');
+
 
 // Route::get('user/{name?}', function($name = null)
 // {

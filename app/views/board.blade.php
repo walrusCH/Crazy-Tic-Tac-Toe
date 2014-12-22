@@ -16,8 +16,8 @@
 				<div class="row" style="margin-bottom: 10px">
 					<div class="col-md-4 col-md-offset-3">
 						<div class="input-group">
-						  	<span class="input-group-addon">O won</span>
-						  	<input type="text" class="form-control" disabled value="12" style="text-align:center">
+						  	<span class="input-group-addon">O({{{$user1Model->usr}}}) won</span>
+						  	<input type="text" class="form-control" disabled value="{{$user1Model->score}}" style="text-align:center">
 						  	<span class="input-group-addon">time(s)</span>
 						</div>
 					</div>	
@@ -25,8 +25,8 @@
 				<div class="row">
 					<div class="col-md-4 col-md-offset-3">
 						<div class="input-group">
-						  	<span class="input-group-addon">X won</span>
-						  	<input type="text" class="form-control" disabled value="12" style="text-align:center">
+						  	<span class="input-group-addon">X({{{$user2Model->usr}}}) won</span>
+						  	<input type="text" class="form-control" disabled value="{{{$user2Model->score}}}" style="text-align:center">
 						  	<span class="input-group-addon">time(s)</span>
 						</div>
 					</div>	
