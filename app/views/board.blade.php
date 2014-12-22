@@ -32,127 +32,129 @@
 					</div>	
 				</div>
 			</div>
-			<div class="row" style="margin-top:10px">
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
+			<div class="row" id="bigGrid">
+				<div class="row" style="margin-top:10px">
+					<div class="col-md-3 outside-margin one">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
+					<div class="col-md-3 outside-margin two">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
+					<div class="col-md-3 outside-margin three">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
 				</div>
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
+				<div class="row" style="margin-top:10px">
+					<div class="col-md-3 outside-margin four">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
+					<div class="col-md-3 outside-margin five">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
+					<div class="col-md-3 outside-margin six">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
 				</div>
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
-				</div>
-			</div>
-			<div class="row" style="margin-top:10px">
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
-				</div>
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
-				</div>
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
-				</div>
-			</div>
-			<div class="row" style="margin-top:10px">
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
-				</div>
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
-				</div>
-				<div class="col-md-3 outside-margin">
-					<ul class="row" id="game">
-				      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-					    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
-				    </ul>
+				<div class="row" style="margin-top:10px">
+					<div class="col-md-3 outside-margin seven">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
+					<div class="col-md-3 outside-margin eight">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
+					<div class="col-md-3 outside-margin nine">
+						<ul class="row" id="game">
+					      	<li id="one" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="two" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="three" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="four" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="five" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="six" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="seven" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="eight" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+						    <li id="nine" type="button" class="btn btn-default col-md-3 inner-margin">+</li>
+					    </ul>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -162,5 +164,116 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			function isWin(flag, parent, isOutside)
+			{
+				return isOutside? 
+					(parent.find(".one").hasClass(flag) && parent.find(".two").hasClass(flag) && parent.find(".three").hasClass(flag) 
+			  		|| parent.find(".four").hasClass(flag) && parent.find(".five").hasClass(flag) && parent.find(".six").hasClass(flag) 
+			  		|| parent.find(".seven").hasClass(flag) && parent.find(".eight").hasClass(flag) && parent.find(".nine").hasClass(flag) 
+			  		|| parent.find(".one").hasClass(flag) && parent.find(".four").hasClass(flag) && parent.find(".seven").hasClass(flag) 
+			  		|| parent.find(".two").hasClass(flag) && parent.find(".five").hasClass(flag) && parent.find(".eight").hasClass(flag) 
+			  		|| parent.find(".three").hasClass(flag) && parent.find(".six").hasClass(flag) && parent.find(".nine").hasClass(flag) 
+			  		|| parent.find(".one").hasClass(flag) && parent.find(".five").hasClass(flag) && parent.find(".nine").hasClass(flag) 
+			  		|| parent.find(".three").hasClass(flag) && parent.find(".five").hasClass(flag) && parent.find(".seven").hasClass(flag))
+				: (parent.find("#one").hasClass(flag) && parent.find("#two").hasClass(flag) && parent.find("#three").hasClass(flag)
+			  		|| parent.find("#four").hasClass(flag) && parent.find("#five").hasClass(flag) && parent.find("#six").hasClass(flag) 
+			  		|| parent.find("#seven").hasClass(flag) && parent.find("#eight").hasClass(flag) && parent.find("#nine").hasClass(flag) 
+			  		|| parent.find("#one").hasClass(flag) && parent.find("#four").hasClass(flag) && parent.find("#seven").hasClass(flag) 
+			  		|| parent.find("#two").hasClass(flag) && parent.find("#five").hasClass(flag) && parent.find("#eight").hasClass(flag) 
+			  		|| parent.find("#three").hasClass(flag) && parent.find("#six").hasClass(flag) && parent.find("#nine").hasClass(flag) 
+			  		|| parent.find("#one").hasClass(flag) && parent.find("#five").hasClass(flag) && parent.find("#nine").hasClass(flag) 
+			  		|| parent.find("#three").hasClass(flag) && parent.find("#five").hasClass(flag) && parent.find("#seven").hasClass(flag));
+			}
+			var x = "x"
+			var o = "o"
+			var count = 0;
+			var outsideCount = 0;
+			var o_win = 0;
+			var x_win = 0;
+			var $outSide = $('#bigGrid');
+			$('#game li').click(function(){
+
+				if ($(this).hasClass('disable'))
+			  	{
+			   		alert('Already selected');
+				}
+
+				$grid = $(this).parent();
+
+				//this is O turn
+				if (count%2 == 0)
+			  	{
+					count++
+				 	$(this).text(o)
+			      	$(this).addClass('disable o btn-primary')
+			  	}
+
+			  	else
+			  	{
+			  		count++
+			    	$(this).text(x)
+			    	$(this).addClass('disable x btn-info')
+			  	}
+
+			  	if (isWin('o', $grid, false))
+			   	{
+					alert('O has won the game. Start a new game');
+					$(this).parent().parent().addClass('o');
+					count = (Math.floor(count/9) + 1)*9;
+					console.log("o win count :" + count);
+					outsideCount++;
+					//disable rest
+					$grid.children().not('.disable').attr('disabled', true);
+			   	}
+			  	else if (isWin('x', $grid, false))
+			  	{
+			   		alert('X wins has won the game. Start a new game');
+			   		count = (Math.floor(count/9) + 1)*9;
+			   		console.log("x wins, count is "+count);
+					$(this).parent().parent().addClass('x');
+					$grid.children().not('.disable').attr('disabled', true);
+					console.log("X win count :" + count);
+					outsideCount++;
+			  	}
+				else if (count % 9 == 0)
+			  	{
+					alert('Its a tie.');
+					outsideCount++;
+			  	}
+
+			  	//check out side 
+			  	if (isWin('o', $outSide, true))
+			  	{
+			  		alert('MotherFucker !!! O has won the big game. Start a new game');
+			  		$outSide.find('li').not('.disable').attr('disabled', true);
+			  	}
+
+			  	else if (isWin('x', $outSide, true))
+			  	{
+			  		alert('MotherFucker X has won big the game. Start a new game');
+			  		$outSide.find('li').not('.disable').attr('disabled', true);
+			  	}
+
+			  	if(outsideCount == 9)
+			  	{
+			  		alert('MonterFucker Its a tie. Game Over');
+			  	}
+
+			});
+		    $("#reset").click(function () {
+			    $("#game li").text("+");
+				$("#game li").removeClass('disable')
+				$("#game li").removeClass('o')
+				$("#game li").removeClass('x')
+				$("#game li").removeClass('btn-primary')
+				$("#game li").removeClass('btn-info')
+				$("#game li").attr('disabled', false);
+				count = 0
+			});
+		});
+	</script>
 </body>
 </html>
