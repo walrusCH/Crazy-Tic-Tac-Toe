@@ -17,7 +17,7 @@ Route::get('/', function()
 });
 
 Route::post('/foo' ,'UserController@login');
-
+Route::post('/foo/winner' ,'UserController@winner');
 
 // Route::get('user/{name?}', function($name = null)
 // {

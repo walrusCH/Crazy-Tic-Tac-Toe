@@ -9,7 +9,7 @@
 		<div class="row">
 			<div class="row">
 				<div class="page-header">
-					<h1>Tic Tac Toe<small> By xxx</small></h1>
+					<h1>Tic Tac Toe<small> By Gary</small></h1>
 				</div>
 			</div>
 			<div class="row">
@@ -17,6 +17,7 @@
 					<div class="col-md-4 col-md-offset-3">
 						<div class="input-group">
 						  	<span class="input-group-addon">O({{{$user1Model->usr}}}) won</span>
+						  	<input type="hidden" value = "{{{$user1Model->usr}}}" id="user1">
 						  	<input type="text" class="form-control" disabled value="{{$user1Model->score}}" style="text-align:center">
 						  	<span class="input-group-addon">time(s)</span>
 						</div>
@@ -26,6 +27,7 @@
 					<div class="col-md-4 col-md-offset-3">
 						<div class="input-group">
 						  	<span class="input-group-addon">X({{{$user2Model->usr}}}) won</span>
+						  	<input type="hidden" value = "{{{$user2Model->usr}}}" id="user2">
 						  	<input type="text" class="form-control" disabled value="{{{$user2Model->score}}}" style="text-align:center">
 						  	<span class="input-group-addon">time(s)</span>
 						</div>
@@ -164,10 +166,12 @@
 			</div>
 		</div>
 	</div>
+	
+
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			function isWin(flag, parent, isOutside)
+			var isWin = function(flag, parent, isOutside)
 			{
 				return isOutside? 
 					(parent.find(".one").hasClass(flag) && parent.find(".two").hasClass(flag) && parent.find(".three").hasClass(flag) 
@@ -187,6 +191,21 @@
 			  		|| parent.find("#one").hasClass(flag) && parent.find("#five").hasClass(flag) && parent.find("#nine").hasClass(flag) 
 			  		|| parent.find("#three").hasClass(flag) && parent.find("#five").hasClass(flag) && parent.find("#seven").hasClass(flag));
 			}
+
+			var postWinner = function(winner)
+			{
+				$.ajax({
+					type: 'POST',
+					url:'/foo/winner',
+					data: {
+						'winner' : winner
+					},
+					success: function(reponse){
+						alert('winner ' + winner + ' already posted');
+					}
+				});
+			}
+
 			var x = "x"
 			var o = "o"
 			var count = 0;
@@ -194,6 +213,8 @@
 			var o_win = 0;
 			var x_win = 0;
 			var $outSide = $('#bigGrid');
+			var user1 = $('#user1').val();
+			var user2 = $('#user2').val();
 			$('#game li').click(function(){
 
 				if ($(this).hasClass('disable'))
@@ -249,12 +270,14 @@
 			  	{
 			  		alert('MotherFucker !!! O has won the big game. Start a new game');
 			  		$outSide.find('li').not('.disable').attr('disabled', true);
+			  		postWinner(user1);
 			  	}
 
 			  	else if (isWin('x', $outSide, true))
 			  	{
 			  		alert('MotherFucker X has won big the game. Start a new game');
 			  		$outSide.find('li').not('.disable').attr('disabled', true);
+			  		postWinner(user2);
 			  	}
 
 			  	if(outsideCount == 9)

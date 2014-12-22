@@ -16,4 +16,12 @@ class UserController extends BaseController {
     	return View::make('board',compact("user1Model", "user2Model"));
     }
 
+    public function winner()
+    {
+    	$winner = Input::get('winner');
+    	$usr = User::firstOrCreate(['usr'=>$winner]);
+    	$usr->score = $usr->score + 1;
+    	$usr->save();
+    }
+
 }
